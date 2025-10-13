@@ -1,0 +1,17 @@
+# Ignore everything in zed folder
+zed/*
+
+# Except these specific items
+!zed/themes/
+!zed/themes/**
+!zed/keymap.json
+!zed/settings.json
+
+# Ignore temp files
+zed/.tmp*
+
+# Ignore other folders explicitly
+zed/conversations/
+zed/embeddings/
+zed/prompts/
+zed/themes/dracula_pro.json

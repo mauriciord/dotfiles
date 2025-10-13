@@ -1,0 +1,68 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "context_servers": {},
+  "profiles": {
+    "presentation": {
+      "ui_font_family": "Inter",
+      "ui_font_size": 17,
+      "buffer_font_family": "CommitMono",
+      "buffer_font_size": 17,
+      "buffer_line_height": { "custom": 1.65 }
+    }
+  },
+  "icon_theme": "JetBrains Icons Dark",
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "theme": "Dracula Pro (Blade)",
+  "autosave": "on_window_change",
+  "current_line_highlight": "gutter",
+  "agent": {
+    "always_allow_tool_actions": false,
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-5"
+    }
+  },
+  "base_keymap": "JetBrains",
+  "buffer_font_family": "CommitMono",
+  // "buffer_font_weight": 300,
+  "buffer_font_size": 14,
+  "buffer_line_height": { "custom": 1.6 },
+  "tab_size": 2,
+  "show_wrap_guides": true,
+  "vim_mode": false,
+  "relative_line_numbers": false,
+  "line_indicator_format": "short",
+  "project_panel": {
+    "dock": "left"
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": true
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": true
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "ui_font_family": "Inter",
+  "ui_font_size": 13.5,
+  "auto_signature_help": false,
+  "tabs": { "file_icons": true, "close_position": "right" },
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  }
+}
