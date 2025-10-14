@@ -21,15 +21,15 @@
   "features": {
     "edit_prediction_provider": "zed"
   },
-  "theme": "Dracula Pro (Blade)",
+  "theme": "One Dark - Darkened",
   "autosave": "on_window_change",
   "current_line_highlight": "gutter",
   "agent": {
     "always_allow_tool_actions": false,
     "default_profile": "ask",
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-5"
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-5"
     }
   },
   "base_keymap": "JetBrains",
