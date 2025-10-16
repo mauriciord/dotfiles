@@ -35,5 +35,17 @@
     "bindings": {
       "alt-c": "git::GenerateCommitMessage"
     }
+  },
+  {
+    "context": "(Workspace || Editor)",
+    "bindings": {
+      "cmd-8": "terminal_panel::Toggle"
+    }
+  },
+  {
+    "context": "(Workspace || Editor)",
+    "bindings": {
+      "cmd-8": "terminal_panel::Toggle"
+    }
   }
 ]
