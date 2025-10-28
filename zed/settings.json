@@ -7,17 +7,22 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "agent_servers": {},
+  "agent_ui_font_size": 15.5,
+  "terminal": {
+    "font_family": "Cascadia Code",
+    "font_size": 13.5
+  },
+  "agent_buffer_font_size": 14.0,
+  "confirm_quit": true,
   "context_servers": {
-        "mastra": {
-            "source": "custom",
-            "enabled": true,
-            "command": "npx",
-            "args": [
-                "-y",
-                "@mastra/mcp-docs-server"
-            ]
-        }
-    },
+    "mastra": {
+      "source": "custom",
+      "enabled": false,
+      "command": "npx",
+      "args": ["-y", "@mastra/mcp-docs-server"]
+    }
+  },
   "profiles": {
     "presentation": {
       "ui_font_family": "Inter",
@@ -27,32 +32,36 @@
       "buffer_line_height": { "custom": 1.65 }
     }
   },
-  "icon_theme": "JetBrains Icons Dark",
+  "icon_theme": "Colored Zed Icons Theme Dark",
   "features": {
-    "edit_prediction_provider": "zed"
+    "edit_prediction_provider": "copilot"
   },
-  "theme": "Dracula Pro (Blade)",
+  "theme": "Gruvbox Baby",
   "autosave": "on_window_change",
   "current_line_highlight": "gutter",
   "agent": {
     "always_allow_tool_actions": true,
     "default_profile": "write",
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4-5"
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4.5"
     }
   },
   "base_keymap": "JetBrains",
-  "buffer_font_family": "CommitMono",
-  // "buffer_font_weight": 300,
+  "buffer_font_family": "AdwaitaMono Nerd Font",
+  "ui_font_weight": 500,
   "buffer_font_size": 14,
-  "buffer_line_height": { "custom": 1.6 },
+  "buffer_line_height": { "custom": 1.65 },
   "tab_size": 2,
   "show_wrap_guides": true,
   "vim_mode": false,
   "relative_line_numbers": false,
   "line_indicator_format": "short",
   "project_panel": {
+    "git_status": true,
+    "file_icons": true,
+    "folder_icons": true,
+    "entry_spacing": "comfortable",
     "dock": "left"
   },
   "tab_bar": {
@@ -67,7 +76,7 @@
     "metrics": false
   },
   "ui_font_family": "Inter",
-  "ui_font_size": 13.5,
+  "ui_font_size": 14,
   "auto_signature_help": false,
   "tabs": { "file_icons": true, "close_position": "right" },
   "diagnostics": {
